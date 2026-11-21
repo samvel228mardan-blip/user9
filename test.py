@@ -15,3 +15,7 @@ except NegativeNumberError as e:
     print(e)
 except ValueError:
     print("Ошибка: введено не число")
+else:
+    print (f"результат: {result}")
+finally:
+    print("программа завершена")
